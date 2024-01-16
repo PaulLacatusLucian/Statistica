@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Daten aus dem Vektor X
-X = [299, 297, 303, 299, 301, 300, 297, 302, 303, 300, 299, 301, 302, 301, 299, 300, 297, 300, 300, 296, 303, 295, 295, 297]
+X = [299, 297, 303, 299, 301, 300, 297, 302, 303, 300, 299, 301, 302, 301, 299, 300, 297, 300, 300, 296, 303, 295, 295,
+     297]
 
 # Histogramm der absoluten Häufigkeiten
 plt.figure(figsize=(10, 5))

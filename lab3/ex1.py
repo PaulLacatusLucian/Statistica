@@ -21,7 +21,7 @@ for i in range(k):
 wer = sumRot / k
 print("Wenigstens eine rot: " + str(wer))
 print("Theoretisch: " + str(1 - (10 / 16 * 9 / 15 * 8 / 14)))
-# alle die selbe farbe
+# alle dieselbe farbe
 print("Wenigstens eine rot: " + str(sumAlle / k))
 print("Theoretisch: " + str(2 * (6 / 16 * 5 / 15 * 4 / 14) + (4 / 16 * 3 / 15 * 2 / 13)))
 # alle rot

@@ -4,11 +4,11 @@ import numpy as np
 
 mu = 199
 sigma = 3
-N = 1000
+N = 100
 
 Daten = norm.rvs(mu, sigma, N)
 
-print(Daten)
+# print(Daten)
 
 mean_abgefullte_menge = np.mean(Daten)
 
@@ -25,7 +25,7 @@ print(f"Wahrscheinlichkeit mehr als 195 g Tee abgefüllt werden: {prob_more_than
 
 hist, bins, _ = plt.hist(Daten, bins=16, density=True, edgecolor="black", label="rel. Hfg.")
 
-x = np.linspace(min(Daten)-2, max(Daten)+2, 100)
+x = np.linspace(min(Daten) - 2, max(Daten) + 2, 100)
 
 linie = norm.pdf(x, mu, sigma)
 
@@ -37,11 +37,9 @@ plt.legend()
 
 plt.show()
 
-Hfg, Klasse=np.histogram(Daten, bins=16)
-
+Hfg, Klasse = np.histogram(Daten, bins=16)
 
 for i, count in enumerate(Hfg):
     jos = Klasse[i]
     sus = Klasse[i + 1]
     print(f"abs. Hfg. {count} - Klasse [{jos:.4f}, {sus:.4f}]")
-

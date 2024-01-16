@@ -1,0 +1,25 @@
+Simulierte W -> for/while
+
+numpy.random.randint(low=..., high=..., size=...)
+
+Theoretische w -> formula
+
+lab2Ex1 -> zufallige Punke zeichnen
+lab2Ex2 -> quadrat + kreis + punkte
+lab3Ex1 -> ziehen ohne zurucklegung
+lab3Ex2 -> relative Haufigkeiten + theoretische Haufigkeiten + histogram + wurfel
+lab3Ex3 -> lab3Ex3 + extra
+lab4Ex1 -> werte + prob *
+lab4Ex2 -> mean *
+lab4Ex3 -> binomiale verteilung + histo **
+lab4Ex4 -> binomiale cdf, pmf, P <>= X **
+lab5Ex1 -> sigma, niu, norm.cdf si diagrama c+ linie**
+lab5Ex2 -> alfa + exp + prob_less etc**
+lab6Ex1 -> varianz, recapitulare ******
+lab6Ex4 -> uniform si gerade *
+lab6Ex5 -> ziehung mit zurucklegung+ theo + simulierte *
+lab6Ex6 -> varianz + histo etc *
+lab6Ex7 -> varianzionen, permutationen, komb eines string **
+
+ex_practoc -> a2, a3 binom cdf pmf
+              a4 empirische Standardabweichung

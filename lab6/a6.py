@@ -20,7 +20,6 @@ varianz_X = np.var(produkte)
 print("Geschätzter Erwartungswert von X:", erwartungswert_X)
 print("Geschätzte Varianz von X:", varianz_X)
 
-
 p, c = np.unique(produkte, return_counts=True)
 plt.bar(p, c, width=1, edgecolor='black', color='blue')
 plt.title('Absolute Häufigkeiten (Simulation)')
@@ -35,4 +34,3 @@ plt.title('Theoretische Wahrscheinlichkeiten von X')
 plt.xlabel('Wert von X')
 plt.ylabel('Wahrscheinlichkeit')
 plt.show()
-

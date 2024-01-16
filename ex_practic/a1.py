@@ -1,15 +1,17 @@
 import numpy as np
 
+
 # Funktion, um das Ergebnis eines Roulette-Spiels zu simulieren
 def roulette_game():
     # Zufällige Zahl zwischen 0 und 37 (37 Möglichkeiten)
     result = np.random.randint(0, 38)
-    
+
     # Wenn die Glückszahl 15 ist und das Ergebnis ebenfalls 15 ist, gewinnen wir 175 €
     if result == 15:
         return 175
     else:
         return -5
+
 
 # Anzahl der Spiele
 num_games = 10

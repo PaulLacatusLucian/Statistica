@@ -23,7 +23,7 @@ bar(
     label=" relative Haufigkeiten ",
 )
 
-D = {k: binom.pmf(k, n, p) for k in range(0, n + 1)};
+D = {k: binom.pmf(k, n, p) for k in range(0, n + 1)}
 
 bar(
     D.keys(),

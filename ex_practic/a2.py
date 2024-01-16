@@ -12,7 +12,7 @@ simulated_values = np.random.choice([0, 1, 2], size=N, p=[p_no_error, p_minor_er
 
 # b) Mittlere Anzahl M der Waren mit großen Fehlern
 nr = np.sum(simulated_values == 2)
-mean_2 = nr / N;
+mean_2 = nr / N
 print(f"Die mittlere Anzahl M der Waren mit großen Fehlern beträgt: {mean_2}")
 
 # c) Theoretische Wahrscheinlichkeiten

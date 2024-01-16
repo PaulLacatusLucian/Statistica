@@ -4,8 +4,8 @@ from matplotlib.pyplot import bar, show, hist, grid, legend, xticks
 
 N = 200
 daten = [randrange(1, 7) for _ in range(N)]
-print(daten)
 z, count = numpy.unique(daten, return_counts=True)
+print(z)
 d = dict([(z[i], count[i] / N) for i in range(0, 6)])
 print(d)
 bar(
